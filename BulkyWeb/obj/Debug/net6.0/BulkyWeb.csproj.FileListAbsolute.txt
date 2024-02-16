@@ -80,3 +80,9 @@ C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\obj\Debug\net6.0\refin
 C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\obj\Debug\net6.0\BulkyWeb.pdb
 C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\obj\Debug\net6.0\BulkyWeb.genruntimeconfig.cache
 C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\obj\Debug\net6.0\ref\BulkyWeb.dll
+C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\bin\Debug\net6.0\Bulky.DataAccess.dll
+C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\bin\Debug\net6.0\Bulky.Models.dll
+C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\bin\Debug\net6.0\Bulky.Utility.dll
+C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\bin\Debug\net6.0\Bulky.DataAccess.pdb
+C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\bin\Debug\net6.0\Bulky.Models.pdb
+C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\bin\Debug\net6.0\Bulky.Utility.pdb

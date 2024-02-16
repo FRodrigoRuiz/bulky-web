@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace BulkyWebRazorTemp.Migrations
+namespace BulkyBookWebRazorTemp.Migrations
 {
     /// <inheritdoc />
     public partial class AddCategoryToDb : Migration

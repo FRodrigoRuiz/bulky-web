@@ -8,7 +8,7 @@
     }
   },
   "profiles": {
-    "BulkyWebRazor_Temp": {
+    "BulkyBookWebRazor_Temp": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
