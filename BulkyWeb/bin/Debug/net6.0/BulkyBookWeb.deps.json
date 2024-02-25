@@ -9,12 +9,14 @@
       "BulkyBookWeb/1.0.0": {
         "dependencies": {
           "BulkyBook.DataAccess": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.Facebook": "6.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.0",
           "Microsoft.AspNetCore.Identity.UI": "6.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16",
+          "Stripe.net": "43.15.0",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -587,6 +589,14 @@
         }
       },
       "MessagePackAnalyzer/2.1.152": {},
+      "Microsoft.AspNetCore.Authentication.Facebook/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52608"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {},
       "Microsoft.AspNetCore.Cryptography.KeyDerivation/6.0.0": {
         "dependencies": {
@@ -1720,6 +1730,18 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Stripe.net/43.15.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {
+            "assemblyVersion": "43.15.0.0",
+            "fileVersion": "43.15.0.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.5.0": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "6.0.5",
@@ -2962,6 +2984,13 @@
       "path": "messagepackanalyzer/2.1.152",
       "hashPath": "messagepackanalyzer.2.1.152.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Authentication.Facebook/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RR39ZVeXlOTGF9omTnbc4eU30+ou5g8F8H4l4xMtUh5jZowoPL9M6vFc6MgfCWg3n1UW9RvzdgsrO7kq4uMCuA==",
+      "path": "microsoft.aspnetcore.authentication.facebook/6.0.0",
+      "hashPath": "microsoft.aspnetcore.authentication.facebook.6.0.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {
       "type": "package",
       "serviceable": true,
@@ -3605,6 +3634,13 @@
       "sha512": "sha512-VB5cn/7OzUfzdnC8tqAIMQciVLiq2epm2NrAm1E9OjNRyG4lVhfR61SMcLizejzQP8R8Uf/0l5qOIbUEi+RdEg==",
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
+    },
+    "Stripe.net/43.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5i4uFhhHJKEK68ewVelq/QNjnJv2CCMo84zpUp9C0Qi8gvJy19Vsg+jbXGn8882M3mhcMPxDehpOkm8wmyohaw==",
+      "path": "stripe.net/43.15.0",
+      "hashPath": "stripe.net.43.15.0.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore/6.5.0": {
       "type": "package",

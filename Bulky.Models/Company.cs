@@ -21,6 +21,6 @@ namespace BulkyBook.Models
         [Display(Name = "Postal Code")]
         public string PostalCode { get; set; }
         [Display(Name = "Phone Number")]
-        public int PhoneNumber { get; set; }
+        public string PhoneNumber { get; set; }
     }
 }

@@ -252,3 +252,5 @@ C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\obj\Debug\net6.0\refin
 C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\obj\Debug\net6.0\BulkyBookWeb.pdb
 C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\obj\Debug\net6.0\BulkyBookWeb.genruntimeconfig.cache
 C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\obj\Debug\net6.0\ref\BulkyBookWeb.dll
+C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\bin\Debug\net6.0\Stripe.net.dll
+C:\Users\BELTARiT\Desktop\Proyectos de ASP\Bulky\BulkyWeb\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.Facebook.dll

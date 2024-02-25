@@ -622,6 +622,18 @@
       "MessagePackAnalyzer/2.1.152": {
         "type": "package"
       },
+      "Microsoft.AspNetCore.Authentication.Facebook/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {
         "type": "package",
         "compile": {
@@ -2138,6 +2150,19 @@
             "assetType": "native",
             "rid": "ubuntu.16.10-x64"
           }
+        }
+      },
+      "Stripe.net/43.15.0": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.3",
+          "System.Configuration.ConfigurationManager": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Stripe.net.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Stripe.net.dll": {}
         }
       },
       "Swashbuckle.AspNetCore/6.5.0": {
@@ -4385,6 +4410,21 @@
         "messagepackanalyzer.nuspec",
         "tools/install.ps1",
         "tools/uninstall.ps1"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Facebook/6.0.0": {
+      "sha512": "RR39ZVeXlOTGF9omTnbc4eU30+ou5g8F8H4l4xMtUh5jZowoPL9M6vFc6MgfCWg3n1UW9RvzdgsrO7kq4uMCuA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.facebook/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.dll",
+        "lib/net6.0/Microsoft.AspNetCore.Authentication.Facebook.xml",
+        "microsoft.aspnetcore.authentication.facebook.6.0.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.facebook.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Cryptography.Internal/6.0.0": {
@@ -7239,6 +7279,30 @@
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
         "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.nuspec",
         "runtimes/ubuntu.16.10-x64/native/System.Security.Cryptography.Native.OpenSsl.so"
+      ]
+    },
+    "Stripe.net/43.15.0": {
+      "sha512": "5i4uFhhHJKEK68ewVelq/QNjnJv2CCMo84zpUp9C0Qi8gvJy19Vsg+jbXGn8882M3mhcMPxDehpOkm8wmyohaw==",
+      "type": "package",
+      "path": "stripe.net/43.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "icon.png",
+        "lib/net461/Stripe.net.dll",
+        "lib/net461/Stripe.net.xml",
+        "lib/net5.0/Stripe.net.dll",
+        "lib/net5.0/Stripe.net.xml",
+        "lib/net6.0/Stripe.net.dll",
+        "lib/net6.0/Stripe.net.xml",
+        "lib/netcoreapp3.1/Stripe.net.dll",
+        "lib/netcoreapp3.1/Stripe.net.xml",
+        "lib/netstandard2.0/Stripe.net.dll",
+        "lib/netstandard2.0/Stripe.net.xml",
+        "stripe.net.43.15.0.nupkg.sha512",
+        "stripe.net.nuspec"
       ]
     },
     "Swashbuckle.AspNetCore/6.5.0": {
@@ -11150,12 +11214,14 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "BulkyBook.DataAccess >= 1.0.0",
+      "Microsoft.AspNetCore.Authentication.Facebook >= 6.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.0",
       "Microsoft.AspNetCore.Identity.UI >= 6.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
+      "Stripe.net >= 43.15.0",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]
   },
@@ -11202,6 +11268,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Facebook": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
             "target": "Package",
             "version": "[6.0.0, )"
@@ -11227,6 +11297,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[6.0.16, )"
+          },
+          "Stripe.net": {
+            "target": "Package",
+            "version": "[43.15.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
